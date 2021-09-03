@@ -1,14 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+
 body {
+    background: linear-gradient(120deg, #fc783a 50%, #1c1a57 0%);
 }
 
 main#container {
+    background-color: rgb(24, 25, 83);
+    margin: 190px;
+    padding: 50px;
+    box-shadow: 8px 5px 2px 0px    rgb(117, 117, 117);
+    border-style: solid;
+    border-bottom-width: 5px;
+    border-top-width: 5px;
+    border-right-width: 5px;
+    border-left-width: 5px;
+    border-color: rgb(78, 78, 78);
 }
 
 h1.titulo {
+    font-size: 35px;
+    color: rgba(255, 136, 0, 0.856);
+    text-shadow: 0.1em 0.01em 0.02em rgb(0, 0, 0);
+    font-family: 'Balsamiq Sans', cursive;
 }
 
 p.frase {
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: white;
+    text-shadow: 0.1em 0.01em 0.02em rgb(0, 0, 0);
+    font-family: 'PT Mono', monospace;
+    
 }
 
 p.autor {
+    font-size: 20px;
+    font-family: 'Balsamiq Sans', cursive;
+    color: rgba(255, 136, 0, 0.856);
+    text-shadow: 0.1em 0.01em 0.02em rgb(0, 0, 0);
 }
